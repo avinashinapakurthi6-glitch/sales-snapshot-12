@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist/client"
+
+# SPA fallback: route any path that doesn't match a built file to the
+# TanStack Start shell so the client router can take over.
+[[redirects]]
+  from = "/*"
+  to = "/_shell.html"
+  status = 200
