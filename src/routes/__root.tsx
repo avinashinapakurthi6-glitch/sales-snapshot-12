@@ -33,10 +33,14 @@ export const Route = createRootRoute({
       { name: "description", content: "Interactive sales and revenue analytics dashboard with KPI cards, trends, categories, and regional breakdowns." },
       { name: "author", content: "Lovable" },
       { property: "og:title", content: "Sales & Revenue Analysis" },
-      { property: "og:description", content: "Interactive sales and revenue analytics dashboard." },
+      { property: "og:description", content: "Interactive sales and revenue analytics dashboard with KPI cards, trends, categories, and regional breakdowns." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Sales & Revenue Analysis" },
+      { name: "twitter:description", content: "Interactive sales and revenue analytics dashboard with KPI cards, trends, categories, and regional breakdowns." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0e94c74f-6a52-4615-bac2-537ea66ad75e/id-preview-9e18ef41--17bc58f4-6070-4f1e-b5fb-cac736e82fab.lovable.app-1777694000827.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0e94c74f-6a52-4615-bac2-537ea66ad75e/id-preview-9e18ef41--17bc58f4-6070-4f1e-b5fb-cac736e82fab.lovable.app-1777694000827.png" },
     ],
     links: [
       {
