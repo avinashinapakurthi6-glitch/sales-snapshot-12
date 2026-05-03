@@ -1,5 +1,0 @@
-{
-  "lint": {
-    "exclude": ["src/routeTree.gen.ts"]
-  }
-}
